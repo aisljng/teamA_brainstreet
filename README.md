@@ -1,5 +1,4 @@
-# teamA_brainstreet
-BrainStreet Group: Development of an Indigenous Language Translation 
+# BrainStreet Group: Development of an Indigenous Language Translation 
 
 Project Description:
 This project analyzes sample electronic language repositories for indigenous language pairs, particularly the Luganda 
@@ -7,23 +6,21 @@ language. To automate translations, this project uses Al software combining Natu
 specifically Transformers, and Machine Learning (ML). The main aim is to improve linguistic diversity with the support of 
 Al-driven software applications. 
 
-Link 
-https://colab.research.google.com/drive/16bJ3gnLtMCgSG1UICMPXVqSHpNDns0ll?usp=sharing 
 
-Goals 
+# Goals 
 Finding a suitable pre-trained model to translate English to Luganda 
 Fine-tuning the pre-trained model to fit the data 
 • Achieve model accuracy of above 80% 
 
-Using the Translation Model 
+# Using the Translation Model 
 Our code utilizes the "facebook/nllb-200-distilled-600M" transformer model and its tokenizer to perform the translation. 
 This section provides information on how to use the translation model in our code. 
 
-Set-Up your Notebook 
+# Set-Up your Notebook 
 • Our translation code utilizes the GPU runtime to process the translation more quickly and efficiently. 
 • This code is implemented in Google Colab, which provides these GPU resources for free. 
 
-Uploading your Dataset 
+## Uploading your Dataset 
 • To implement your data to train on this translation model, follow these steps: 
 1. Open the project notebook in Google Colab. 
 2. Upload your parallel corpus (text pairs in two different languages) to the notebook's environment. 
